@@ -1,0 +1,33 @@
+{
+  "name": "sequential-indexof",
+  "version": "1.0.0",
+  "description": "Returns the index of the first instance; when called a second time, returns the index of the second instance; and so on. Works with arrays and strings.",
+  "keywords": [
+    "indexof",
+    "index",
+    "position",
+    "array",
+    "string"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/sequential-indexof",
+  "repository": "lamansky/sequential-indexof",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
